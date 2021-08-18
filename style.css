@@ -106,5 +106,15 @@ body{
 
 .card{
     width: 18rem;
-    height: 32rem;
+    height: auto;
+}
+
+.navbar-brand{
+    width: 200px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+#jquery-logo{
+    width: 27px;
 }

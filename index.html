@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="mert, şakar, mert şakar, front-end, web, website, computer, software, developer, engineer, designer, co-op" />
+    <meta name="keywords" content="mert, şakar, mert şakar, front-end, web, website, computer, software, developer, engineer, designer" />
     <meta name="author" content="Mert Şakar" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -22,8 +22,10 @@
     <div id="content">
       <!--Navigation Bar-->
       <nav class="navbar navbar-dark bg-dark navbar-expand-lg text-white fixed-top">
-        <div class="container-fluid">
-          <a href="#content" class="navbar-brand"> MERT ŞAKAR </a>
+        <div class="container">
+          <a href="#content" class="navbar-brand"> 
+            <img src="./sources/default-monochrome-white.svg" alt="Mert Şakar's logo"> </img>
+          </a>
 
           <button
             class="navbar-toggler"
@@ -77,14 +79,10 @@
                 Industrial Engineer.
               </p>
               <p>
-                I think commanding a non-living thing whether for fun or for a task is amazing. I love handling repetetive tasks with programs. With just a
-                little bit adjustment, computers can solve our problems and do all the boring stuff for us.
-              </p>
-              <p>
                 I used programming for problems that I encountered in my career. I developed little programs to automate daily tasks. After a while I realised
                 most exciting parts of my career was those moments when I create programs. So, I decided to change my career to tech.
               </p>
-              <p>I'm a Self-Taugt Developer with a passion for web development and mobile app development.</p>
+              <p>I'm a self-taught front-end developer with passion for web development and mobile app development. I enjoy building responsive, pixel perfect websites with proper UI/UX.</p>
             </div>
           </div>
         </div>
@@ -97,7 +95,49 @@
             <h2>PROJECTS</h2>
             <p>Here are some of my work.</p>
           </div>
+          <div class="row d-flex justify-content-evenly mb-5">
+            <h3 class="text-center">Real Life Projects</h3>
+            <div class="card m-2">
+              <img src="./sources/images/ius.png" class="card-img-top my-2 border border-dark" alt="ius turkey website image" />
+              <div class="card-body">
+                <h5 class="card-title"><strong>IUS Turkey Webpage</strong></h5>
+                <p class="card-text">A webpage for IUS Turkey. It is a university consultancy firm's webpage.</p>
+              </div>
+              <div class="card-footer bg-white border-white">
+                <div class="row">
+                  <a href="https://www.bosnaedu.com/" target="_blank" class="btn btn-primary my-2">Visit Site</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card m-2">
+              <img src="./sources/images/peki-analytics.png" class="card-img-top my-2 border border-dark" alt="Peki Games Analytics Section image" />
+              <div class="card-body">
+                <h5 class="card-title"><strong>Peki Games Analytics Section</strong></h5>
+                <p class="card-text">A section for Peki Games' analytics page is created with jQuery and Bootstrap. Information pulled from the json file and displayed.</p>
+              </div>
+              <div class="card-footer bg-white border-white">
+                <div class="row">
+                  <a href="https://github.com/horzu/pekiGamesTest" target="_blank" class="btn btn-primary my-2">Visit Site</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card m-2">
+              <img src="./sources/images/meetthemusic.png" class="card-img-top my-2 border border-dark" alt="meet the music website template image" />
+              <div class="card-body">
+                <h5 class="card-title"><strong>Meet the Music Webpage Template</strong></h5>
+                <p class="card-text">A new website template created for Meet the Music App's website while working with them voluntarily.</p>
+              </div>
+              <div class="card-footer bg-white border-white">
+                <div class="row">
+                  <a href="https://horzu.github.io/mtm-new/" target="_blank" class="btn btn-primary my-2">Visit Site</a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="row d-flex justify-content-evenly">
+            <h3 class="text-center">Side Projects</h3>
             <div class="card m-2">
               <img src="./sources/images/voice-assistant-news.png" class="card-img-top my-2 border border-dark" alt="voice-assistant-news live website image" />
               <div class="card-body">
@@ -208,20 +248,6 @@
                 </div>
               </div>
             </div>
-
-            <div class="card m-2">
-              <img src="./sources/images/personal-webpage.png" class="card-img-top my-2 border border-dark" alt="Personal website image" />
-              <div class="card-body">
-                <h5 class="card-title"><strong>Old Personal Website</strong></h5>
-                <p class="card-text">First personal webpage created by me.</p>
-              </div>
-              <div class="card-footer bg-white border-white">
-                <div class="row">
-                  <a href="https://horzu.github.io/personal-webpage-v1/" target="_blank" class="btn btn-primary my-2">Visit Site</a>
-                  <a href="https://github.com/horzu/personal-webpage-v1" target="_blank" class="btn btn-secondary">View Source</a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -244,6 +270,8 @@
             <div data-aos="zoom-in" class="col-4">
               <i data-aos="zoom-in" class="fab fa-react fs-1"></i>
               <p>REACT</p>
+              <img data-aos="zoom-in" src="./sources/images/jquery (1).png" id="jquery-logo"></img>
+              <p>JQUERY</p>
               <i data-aos="zoom-in" class="fab fa-bootstrap fs-1"></i>
               <p>BOOTSTRAP</p>
               <i data-aos="zoom-in" class="fab fa-sass fs-1"></i>
@@ -281,6 +309,7 @@
         </div>
       </section>
 
+      <!--Footer section-->
       <footer class="bg-dark text-white p-1">
         <div class="container text-center">
           <div id="contact-icon" class="fs-3 my-3">
@@ -297,6 +326,7 @@
         </div>
       </footer>
     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
